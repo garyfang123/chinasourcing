@@ -1843,7 +1843,7 @@ QUnit.jsDump = (function() {
 				return type;
 			},
 			separator: function() {
-				return this.multiline ?	this.HTML ? "<br />" : "\n" : this.HTML ? "&nbsp;" : " ";
+				return this.multiline ?	this.html ? "<br />" : "\n" : this.html ? "&nbsp;" : " ";
 			},
 			// extra can be a number, shortcut for increasing-calling-decreasing
 			indent: function( extra ) {
@@ -1851,7 +1851,7 @@ QUnit.jsDump = (function() {
 					return "";
 				}
 				var chr = this.indentChar;
-				if ( this.HTML ) {
+				if ( this.html ) {
 					chr = chr.replace( /\t/g, "   " ).replace( / /g, "&nbsp;" );
 				}
 				return new Array( this._depth_ + (extra||0) ).join(chr);
@@ -1915,8 +1915,8 @@ QUnit.jsDump = (function() {
 				},
 				node: function( node ) {
 					var len, i, val,
-						open = QUnit.jsDump.HTML ? "&lt;" : "<",
-						close = QUnit.jsDump.HTML ? "&gt;" : ">",
+						open = QUnit.jsDump.html ? "&lt;" : "<",
+						close = QUnit.jsDump.html ? "&gt;" : ">",
 						tag = node.nodeName.toLowerCase(),
 						ret = open + tag,
 						attrs = node.attributes;

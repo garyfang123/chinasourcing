@@ -132,7 +132,7 @@ if (!empty($form_values)) {
                 About Us
               </h3>
               <p>Making the web a prettier place one template at a time! We make beautiful, quality, responsive Drupal & web templates!</p>
-              <a href="about.htm" class="btn btn-sm btn-primary">Find out more</a> 
+              <a href="about.html" class="btn btn-sm btn-primary">Find out more</a> 
             </div>
             <div class="col-sm-6">
               <!--@todo: replace with company contact details-->
@@ -164,12 +164,12 @@ if (!empty($form_values)) {
         <div id="header-hidden-link">
           <a href="#" title="Click me you'll get a surprise" class="show-hide" data-toggle="show-hide" data-target=".header-hidden"><i></i>Open</a>
         </div>
-        <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+        <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.html) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.html) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
         <div class="header-inner container">
           <!--user menu-->
           <div class="header-block-flex flex-first mr-auto">
             <nav class="nav nav-sm header-block-flex">
-              <a class="nav-link hidden-md-up" href="login.htm"><i class="fa fa-user"></i></a>
+              <a class="nav-link hidden-md-up" href="login.html"><i class="fa fa-user"></i></a>
               <a class="nav-link text-xs text-uppercase hidden-sm-down" href="#signup-modal" data-toggle="modal">Sign Up</a> <a class="nav-link text-xs text-uppercase hidden-sm-down" href="#login-modal" data-toggle="modal">Login</a> 
             </nav>
             <div class="header-divider header-divider-sm"></div>
@@ -207,11 +207,11 @@ if (!empty($form_values)) {
         
         <!--Header & Branding region-->
         <div class="header">
-          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.html) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.html) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
           <div class="header-inner container">
             <!--branding/logo -->
             <div class="header-brand flex-first">
-              <a class="header-brand-text" href="index.htm" title="Home">
+              <a class="header-brand-text" href="index.html" title="Home">
                 <h1>
                   <span>App</span>Strap<span>.</span>
                 </h1>
@@ -236,13 +236,13 @@ if (!empty($form_values)) {
                 <ul class="nav navbar-nav float-lg-right dropdown-effect-fade">
                   <!-- Homepages -->
                   <li class="nav-item">
-                    <a href="index.htm" class="nav-link dropdown-toggle" id="indexs-drop" data-toggle="dropdown" data-hover="dropdown"> <i class="fa fa-home nav-link-icon"></i> <span class="hidden-xs-up">Home</span> </a>
+                    <a href="index.html" class="nav-link dropdown-toggle" id="indexs-drop" data-toggle="dropdown" data-hover="dropdown"> <i class="fa fa-home nav-link-icon"></i> <span class="hidden-xs-up">Home</span> </a>
                     <div class="dropdown-menu" role="menu" aria-labelledby="indexs-drop">
-                      <a href="demo-travel-blog.htm" class="dropdown-item">Travel Blog</a> <a href="demo-jobs.htm" class="dropdown-item">Jobs Site</a> <a href="index-static.htm" class="dropdown-item">Homepage No Slider</a> <a href="index-boxed.htm" class="dropdown-item">Homepage Boxed</a> <a href="index-promo-header.htm" class="dropdown-item">Promo Header</a> <a href="index-corporate.htm" class="dropdown-item">Corporate Homepage</a> <a href="index-restaurant.htm" class="dropdown-item">Restaurant Homepage</a> 
+                      <a href="demo-travel-blog.html" class="dropdown-item">Travel Blog</a> <a href="demo-jobs.html" class="dropdown-item">Jobs Site</a> <a href="index-static.html" class="dropdown-item">Homepage No Slider</a> <a href="index-boxed.html" class="dropdown-item">Homepage Boxed</a> <a href="index-promo-header.html" class="dropdown-item">Promo Header</a> <a href="index-corporate.html" class="dropdown-item">Corporate Homepage</a> <a href="index-restaurant.html" class="dropdown-item">Restaurant Homepage</a> 
                       <div class="dropdown dropdown-submenu">
                         <a href="#" class="dropdown-item" id="index-onepagers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">One Pagers</a> 
                         <!-- One Pagers: Dropdown Menu -->
-                        <div class="dropdown-menu" role="menu" aria-labelledby="index-onepagers-drop"> <a href="index-onepager.htm" class="dropdown-item">One Pager Slideshow</a> <a href="index-onepager-image.htm" class="dropdown-item">One Pager Image</a> <a href="index-onepager-image-full-height.htm" class="dropdown-item">One Pager Image Full Height</a> <a href="index-onepager-bg-slideshow.htm" class="dropdown-item">One Pager Background Slideshow</a> </div>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="index-onepagers-drop"> <a href="index-onepager.html" class="dropdown-item">One Pager Slideshow</a> <a href="index-onepager-image.html" class="dropdown-item">One Pager Image</a> <a href="index-onepager-image-full-height.html" class="dropdown-item">One Pager Image Full Height</a> <a href="index-onepager-bg-slideshow.html" class="dropdown-item">One Pager Background Slideshow</a> </div>
                       </div>
                     </div>
                   </li>
@@ -253,26 +253,26 @@ if (!empty($form_values)) {
                     <!-- Menu -->
                     <div class="dropdown-menu">
                       <div class="dropdown dropdown-submenu">
-                        <a href="about.htm" class="dropdown-item dropdown-toggle" id="about-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">About</a> 
+                        <a href="about.html" class="dropdown-item dropdown-toggle" id="about-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">About</a> 
                         <!-- Dropdown Menu -->
-                        <div class="dropdown-menu" role="menu" aria-labelledby="about-drop"> <a href="about.htm" class="dropdown-item">About Us Basic</a> <a href="about-extended.htm" class="dropdown-item">About Us Extended</a> <a href="about-me.htm" class="dropdown-item">About Me</a> <a href="team.htm" class="dropdown-item">Team List</a> <a href="team-grid.htm" class="dropdown-item">Team Grid</a> <a href="team-member.htm" class="dropdown-item">Team Member</a> <a href="contact.htm" class="dropdown-item">Contact</a> <a href="contact.php" class="dropdown-item active">Contact (PHP)</a> </div>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="about-drop"> <a href="about.html" class="dropdown-item">About Us Basic</a> <a href="about-extended.html" class="dropdown-item">About Us Extended</a> <a href="about-me.html" class="dropdown-item">About Me</a> <a href="team.html" class="dropdown-item">Team List</a> <a href="team-grid.html" class="dropdown-item">Team Grid</a> <a href="team-member.html" class="dropdown-item">Team Member</a> <a href="contact.html" class="dropdown-item">Contact</a> <a href="contact.php" class="dropdown-item active">Contact (PHP)</a> </div>
                       </div>
                       <div class="dropdown dropdown-submenu">
-                        <a href="blog.htm" class="dropdown-item dropdown-toggle" id="blog-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Blog</a> 
+                        <a href="blog.html" class="dropdown-item dropdown-toggle" id="blog-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Blog</a> 
                         <!-- Dropdown Menu -->
-                        <div class="dropdown-menu"> <a href="blog.htm" class="dropdown-item">Blog List Right Sidebar</a> <a href="blog-leftbar.htm" class="dropdown-item">Blog List Left Sidebar</a> <a href="blog-timeline.htm" class="dropdown-item">Blog List Timeline</a> <a href="blog-grid.htm" class="dropdown-item">Blog List Grid</a> <a href="blog-post.htm" class="dropdown-item">Blog Post</a> <a href="blog-post-video.htm" class="dropdown-item">Blog Post With Video</a> <a href="blog-post-slideshow.htm" class="dropdown-item">Blog Post With Slideshow</a> <a href="blog-post-audio.htm" class="dropdown-item">Blog Post With Audio Clip</a> </div>
+                        <div class="dropdown-menu"> <a href="blog.html" class="dropdown-item">Blog List Right Sidebar</a> <a href="blog-leftbar.html" class="dropdown-item">Blog List Left Sidebar</a> <a href="blog-timeline.html" class="dropdown-item">Blog List Timeline</a> <a href="blog-grid.html" class="dropdown-item">Blog List Grid</a> <a href="blog-post.html" class="dropdown-item">Blog Post</a> <a href="blog-post-video.html" class="dropdown-item">Blog Post With Video</a> <a href="blog-post-slideshow.html" class="dropdown-item">Blog Post With Slideshow</a> <a href="blog-post-audio.html" class="dropdown-item">Blog Post With Audio Clip</a> </div>
                       </div>
                       <div class="dropdown dropdown-submenu">
-                        <a href="pricing.htm" class="dropdown-item dropdown-toggle" id="pricing-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Pricing</a> 
+                        <a href="pricing.html" class="dropdown-item dropdown-toggle" id="pricing-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Pricing</a> 
                         <!-- pricing pages -->
-                        <div class="dropdown-menu"> <a href="pricing.htm" class="dropdown-item">Pricing Plans</a> <a href="pricing-tables.htm" class="dropdown-item">Comparison Tables</a> </div>
+                        <div class="dropdown-menu"> <a href="pricing.html" class="dropdown-item">Pricing Plans</a> <a href="pricing-tables.html" class="dropdown-item">Comparison Tables</a> </div>
                       </div>
                       <div class="dropdown dropdown-submenu">
-                        <a href="timeline.htm" class="dropdown-item dropdown-toggle" id="timeline-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Timeline</a> 
+                        <a href="timeline.html" class="dropdown-item dropdown-toggle" id="timeline-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Timeline</a> 
                         <!-- timelines -->
-                        <div class="dropdown-menu" role="menu" aria-labelledby="timeline-drop"> <a href="timeline.htm" class="dropdown-item">Timeline Default</a> <a href="timeline-left.htm" class="dropdown-item">Timeline Left</a> <a href="timeline-right.htm" class="dropdown-item">Timeline Right</a> <a href="timeline-stacked.htm" class="dropdown-item">Timeline Stacked</a> </div>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="timeline-drop"> <a href="timeline.html" class="dropdown-item">Timeline Default</a> <a href="timeline-left.html" class="dropdown-item">Timeline Left</a> <a href="timeline-right.html" class="dropdown-item">Timeline Right</a> <a href="timeline-stacked.html" class="dropdown-item">Timeline Stacked</a> </div>
                       </div>
-                      <a href="customers.htm" class="dropdown-item">Customers</a> <a href="features.htm" class="dropdown-item">Features/Services</a> <a href="login.htm" class="dropdown-item">Login</a> <a href="signup.htm" class="dropdown-item">Sign Up</a> <a href="starter.htm" class="dropdown-item">Starter Snippets</a> <a href="404.htm" class="dropdown-item">404 Error</a> 
+                      <a href="customers.html" class="dropdown-item">Customers</a> <a href="features.html" class="dropdown-item">Features/Services</a> <a href="login.html" class="dropdown-item">Login</a> <a href="signup.html" class="dropdown-item">Sign Up</a> <a href="starter.html" class="dropdown-item">Starter Snippets</a> <a href="404.html" class="dropdown-item">404 Error</a> 
                     </div>
                   </li>
                   
@@ -282,37 +282,37 @@ if (!empty($form_values)) {
                     <!-- Dropdown Menu -->
                     <div class="dropdown-menu">
                       <div class="dropdown dropdown-submenu dropdown-menu-left">
-                        <a href="headers.htm" class="dropdown-item dropdown-toggle" id="headers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Header Variations (17)</a> 
+                        <a href="headers.html" class="dropdown-item dropdown-toggle" id="headers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Header Variations (17)</a> 
                         <!-- Header variations -->
-                        <div class="dropdown-menu" role="menu" aria-labelledby="headers-drop"> <a href="header-elements.htm" class="dropdown-item">Header Elements</a> <a href="header-offcanvas.htm" class="dropdown-item">Header Off Canvas</a> <a href="header-collapse-menu.htm" class="dropdown-item">Header Collapse Menu</a> <a href="header-overlay-menu.htm" class="dropdown-item">Header Overlay Menu</a> <a href="header-collapse-menu-responsive.htm" class="dropdown-item">Header Responsive Collapse Menu</a> <a href="header-fullwidth.htm" class="dropdown-item">Header Full Width</a> <a href="header-navbar-below.htm" class="dropdown-item">Header Navbar Below</a> <a href="header-compact.htm" class="dropdown-item">Header Compact</a> <a href="header-dark.htm" class="dropdown-item">Header Dark</a> <a href="header-primary.htm" class="dropdown-item">Header Primary</a> <a href="header-transparent.htm" class="dropdown-item">Header Transparent</a> <a href="header-transparent-dark.htm" class="dropdown-item">Header Transparent Dark</a> <a href="header-transparent-primary.htm" class="dropdown-item">Header Transparent Primary</a> <a href="header-translucent.htm" class="dropdown-item">Header Translucent</a> <a href="header-translucent-dark.htm" class="dropdown-item">Header Translucent Dark</a> <a href="header-translucent-primary.htm" class="dropdown-item">Header Translucent Primary</a> <a href="header-nav-left.htm" class="dropdown-item">Header Nav Left</a> <a href="header-bottom.htm" class="dropdown-item">Header Bottom</a> </div>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="headers-drop"> <a href="header-elements.html" class="dropdown-item">Header Elements</a> <a href="header-offcanvas.html" class="dropdown-item">Header Off Canvas</a> <a href="header-collapse-menu.html" class="dropdown-item">Header Collapse Menu</a> <a href="header-overlay-menu.html" class="dropdown-item">Header Overlay Menu</a> <a href="header-collapse-menu-responsive.html" class="dropdown-item">Header Responsive Collapse Menu</a> <a href="header-fullwidth.html" class="dropdown-item">Header Full Width</a> <a href="header-navbar-below.html" class="dropdown-item">Header Navbar Below</a> <a href="header-compact.html" class="dropdown-item">Header Compact</a> <a href="header-dark.html" class="dropdown-item">Header Dark</a> <a href="header-primary.html" class="dropdown-item">Header Primary</a> <a href="header-transparent.html" class="dropdown-item">Header Transparent</a> <a href="header-transparent-dark.html" class="dropdown-item">Header Transparent Dark</a> <a href="header-transparent-primary.html" class="dropdown-item">Header Transparent Primary</a> <a href="header-translucent.html" class="dropdown-item">Header Translucent</a> <a href="header-translucent-dark.html" class="dropdown-item">Header Translucent Dark</a> <a href="header-translucent-primary.html" class="dropdown-item">Header Translucent Primary</a> <a href="header-nav-left.html" class="dropdown-item">Header Nav Left</a> <a href="header-bottom.html" class="dropdown-item">Header Bottom</a> </div>
                       </div>
                       <div class="dropdown dropdown-submenu dropdown-menu-left">
-                        <a href="headers.htm" class="dropdown-item dropdown-toggle" id="footers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Footer Variations (5)</a> 
+                        <a href="headers.html" class="dropdown-item dropdown-toggle" id="footers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Footer Variations (5)</a> 
                         <!-- Header variations -->
-                        <div class="dropdown-menu" role="menu" aria-labelledby="footers-drop"> <a href="footer-light.htm" class="dropdown-item">Footer Light</a> <a href="footer-compact.htm" class="dropdown-item">Footer Compact</a> <a href="footer-menus.htm" class="dropdown-item">Footer Menus</a> <a href="footer-compact-light.htm" class="dropdown-item">Footer Compact Light</a> <a href="footer-menus-light.htm" class="dropdown-item">Footer Menus Light</a> </div>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="footers-drop"> <a href="footer-light.html" class="dropdown-item">Footer Light</a> <a href="footer-compact.html" class="dropdown-item">Footer Compact</a> <a href="footer-menus.html" class="dropdown-item">Footer Menus</a> <a href="footer-compact-light.html" class="dropdown-item">Footer Compact Light</a> <a href="footer-menus-light.html" class="dropdown-item">Footer Menus Light</a> </div>
                       </div>
                       <div class="dropdown dropdown-submenu dropdown-menu-left">
-                        <a href="sliders.htm" class="dropdown-item dropdown-toggle" id="slider-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Sliders</a> 
+                        <a href="sliders.html" class="dropdown-item dropdown-toggle" id="slider-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Sliders</a> 
                         <!-- Sliders -->
                         <div class="dropdown-menu">
                           <!--Slider Revolution -->
                           <h4 class="dropdown-header">
                             Slider Revolution
                           </h4>
-                          <a href="slider-revolution-default.htm" class="dropdown-item">Default</a> <a href="slider-revolution-full.htm" class="dropdown-item">Full Width</a> <a href="slider-revolution-behind.htm" class="dropdown-item">Behind Navbar</a> <a href="slider-revolution-boxed.htm" class="dropdown-item">Boxed</a> 
+                          <a href="slider-revolution-default.html" class="dropdown-item">Default</a> <a href="slider-revolution-full.html" class="dropdown-item">Full Width</a> <a href="slider-revolution-behind.html" class="dropdown-item">Behind Navbar</a> <a href="slider-revolution-boxed.html" class="dropdown-item">Boxed</a> 
                           <!--Backstretch Slider-->
                           <h4 class="dropdown-header">
                             Backstretch
                           </h4>
-                          <a href="backstretch.htm" class="dropdown-item">Background Slideshow</a> <a href="backstretch-boxed.htm" class="dropdown-item">Boxed Background Slideshow</a> 
+                          <a href="backstretch.html" class="dropdown-item">Background Slideshow</a> <a href="backstretch-boxed.html" class="dropdown-item">Boxed Background Slideshow</a> 
                           <!--Flexslider-->
                           <h4 class="dropdown-header">
                             Flexslider
                           </h4>
-                          <a href="flexslider-default.htm" class="dropdown-item">Default</a> <a href="flexslider-full.htm" class="dropdown-item">Full Width</a> <a href="flexslider-behind.htm" class="dropdown-item">Behind Navbar</a> <a href="flexslider-boxed.htm" class="dropdown-item">Boxed</a> 
+                          <a href="flexslider-default.html" class="dropdown-item">Default</a> <a href="flexslider-full.html" class="dropdown-item">Full Width</a> <a href="flexslider-behind.html" class="dropdown-item">Behind Navbar</a> <a href="flexslider-boxed.html" class="dropdown-item">Boxed</a> 
                         </div>
                       </div>
-                      <a href="grid.htm" class="dropdown-item">Grid System</a> <a href="flexbox.htm" class="dropdown-item">Flexbox!</a> <a href="colours.htm" class="dropdown-item">Theme Colours</a> 
+                      <a href="grid.html" class="dropdown-item">Grid System</a> <a href="flexbox.html" class="dropdown-item">Flexbox!</a> <a href="colours.html" class="dropdown-item">Theme Colours</a> 
                     </div>
                   </li>
                   
@@ -326,7 +326,7 @@ if (!empty($form_values)) {
                           <h3 class="dropdown-header mt-0 pt-0">
                             Pages
                           </h3>
-                          <a href="shop.htm" class="dropdown-item">Shop Home</a> <a href="shop-cart.htm" class="dropdown-item">Cart</a> <a href="shop-checkout.htm" class="dropdown-item">Checkout</a> <a href="shop-confirmation.htm" class="dropdown-item">Confirmation</a> <a href="shop-grid.htm" class="dropdown-item">Products Grid</a> <a href="shop-list.htm" class="dropdown-item">Products List</a> <a href="shop-product.htm" class="dropdown-item">Product View</a> 
+                          <a href="shop.html" class="dropdown-item">Shop Home</a> <a href="shop-cart.html" class="dropdown-item">Cart</a> <a href="shop-checkout.html" class="dropdown-item">Checkout</a> <a href="shop-confirmation.html" class="dropdown-item">Confirmation</a> <a href="shop-grid.html" class="dropdown-item">Products Grid</a> <a href="shop-list.html" class="dropdown-item">Products List</a> <a href="shop-product.html" class="dropdown-item">Product View</a> 
                         </div>
                         <div class="col-lg-6 hidden-md-down">
                           <h3 class="dropdown-header mt-0 pt-0">
@@ -360,11 +360,11 @@ if (!empty($form_values)) {
                         29 pages of elements/snippets <i class="new-tag">Updated!</i>
                       </h4>
                       <div class="row">
-                        <div class="col-lg-3"> <a href="elements-alerts.htm" class="dropdown-item">Alerts</a> <a href="elements-animation.htm" class="dropdown-item">Animations</a> <a href="elements-badges.htm" class="dropdown-item">Badges</a> <a href="elements-button-groups.htm" class="dropdown-item">Button Groups</a> <a href="elements-buttons.htm" class="dropdown-item">Buttons</a> <a href="elements-cards.htm" class="dropdown-item">Cards</a> <a href="elements-carousels.htm" class="dropdown-item">Carousels</a> </div>
-                        <div class="col-lg-3"> <a href="elements-collapse.htm" class="dropdown-item">Collapse / Accordions</a> <a href="elements-colour-utils.htm" class="dropdown-item">Colours Utils</a> <a href="elements-counters.htm" class="dropdown-item">Counters</a> <a href="elements-ctas.htm" class="dropdown-item">Call To Action Blocks</a> <a href="elements-dropdowns.htm" class="dropdown-item">Dropdowns</a> <a href="elements-forms.htm" class="dropdown-item">Forms</a> <a href="elements-forms-input-groups.htm" class="dropdown-item">Forms Input Groups</a> </div>
-                        <div class="col-lg-3"> <a href="elements-icons.htm" class="dropdown-item">Iconsets</a> <a href="elements-list-groups.htm" class="dropdown-item">List Groups</a> <a href="elements-modals.htm" class="dropdown-item">Modals</a> <a href="elements-modals-onload.htm" class="dropdown-item">Modals Onload</a> <a href="elements-navs.htm" class="dropdown-item">Navs</a> <a href="elements-navs-tabbable.htm" class="dropdown-item">Tabbable Navs</a> <a href="elements-overlays.htm" class="dropdown-item">Overlays</a> </div>
-                        <div class="col-lg-3"> <a href="elements-progressbars.htm" class="dropdown-item">Progress Bars</a> <a href="elements-spacers.htm" class="dropdown-item">Spacers</a> <a href="elements-tables.htm" class="dropdown-item">Tables</a> <a href="elements-tooltips-popovers.htm" class="dropdown-item">Tooltips & Popovers</a> <a href="elements-type-effect.htm" class="dropdown-item">Type Effect</a> <a href="elements-typography.htm" class="dropdown-item">Typography</a> <a href="elements-utils.htm" class="dropdown-item">Utilities</a> </div>
-                        <div class="col-lg-3"> <a href="elements-video-blocks.htm" class="dropdown-item">Video Blocks</a> </div>
+                        <div class="col-lg-3"> <a href="elements-alerts.html" class="dropdown-item">Alerts</a> <a href="elements-animation.html" class="dropdown-item">Animations</a> <a href="elements-badges.html" class="dropdown-item">Badges</a> <a href="elements-button-groups.html" class="dropdown-item">Button Groups</a> <a href="elements-buttons.html" class="dropdown-item">Buttons</a> <a href="elements-cards.html" class="dropdown-item">Cards</a> <a href="elements-carousels.html" class="dropdown-item">Carousels</a> </div>
+                        <div class="col-lg-3"> <a href="elements-collapse.html" class="dropdown-item">Collapse / Accordions</a> <a href="elements-colour-utils.html" class="dropdown-item">Colours Utils</a> <a href="elements-counters.html" class="dropdown-item">Counters</a> <a href="elements-ctas.html" class="dropdown-item">Call To Action Blocks</a> <a href="elements-dropdowns.html" class="dropdown-item">Dropdowns</a> <a href="elements-forms.html" class="dropdown-item">Forms</a> <a href="elements-forms-input-groups.html" class="dropdown-item">Forms Input Groups</a> </div>
+                        <div class="col-lg-3"> <a href="elements-icons.html" class="dropdown-item">Iconsets</a> <a href="elements-list-groups.html" class="dropdown-item">List Groups</a> <a href="elements-modals.html" class="dropdown-item">Modals</a> <a href="elements-modals-onload.html" class="dropdown-item">Modals Onload</a> <a href="elements-navs.html" class="dropdown-item">Navs</a> <a href="elements-navs-tabbable.html" class="dropdown-item">Tabbable Navs</a> <a href="elements-overlays.html" class="dropdown-item">Overlays</a> </div>
+                        <div class="col-lg-3"> <a href="elements-progressbars.html" class="dropdown-item">Progress Bars</a> <a href="elements-spacers.html" class="dropdown-item">Spacers</a> <a href="elements-tables.html" class="dropdown-item">Tables</a> <a href="elements-tooltips-popovers.html" class="dropdown-item">Tooltips & Popovers</a> <a href="elements-type-effect.html" class="dropdown-item">Type Effect</a> <a href="elements-typography.html" class="dropdown-item">Typography</a> <a href="elements-utils.html" class="dropdown-item">Utilities</a> </div>
+                        <div class="col-lg-3"> <a href="elements-video-blocks.html" class="dropdown-item">Video Blocks</a> </div>
                       </div>
                     </div>
                   </li>
@@ -379,31 +379,31 @@ if (!empty($form_values)) {
                       </h4>
                       <div class="row">
                         <div class="col-lg-3">
-                          <a href="features.htm" class="hidden-md-down">
+                          <a href="features.html" class="hidden-md-down">
                             <img src="assets/img/features/feature-1.png" alt="Feature 1" class="img-fluid" />
                           </a>
-                          <a href="features.htm" class="dropdown-item"><strong>Mobile Friendly</strong></a>
+                          <a href="features.html" class="dropdown-item"><strong>Mobile Friendly</strong></a>
                           <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                         </div>
                         <div class="col-lg-3">
-                          <a href="features.htm" class="hidden-md-down">
+                          <a href="features.html" class="hidden-md-down">
                             <img src="assets/img/features/feature-2.png" alt="Feature 2" class="img-fluid" />
                           </a>
-                          <a href="features.htm" class="dropdown-item"><strong>24/7 Support</strong></a>
+                          <a href="features.html" class="dropdown-item"><strong>24/7 Support</strong></a>
                           <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                         </div>
                         <div class="col-lg-3">
-                          <a href="features.htm" class="hidden-md-down">
+                          <a href="features.html" class="hidden-md-down">
                             <img src="assets/img/features/feature-3.png" alt="Feature 3" class="img-fluid" />
                           </a>
-                          <a href="features.htm" class="dropdown-item"><strong>99% Uptime</strong></a>
+                          <a href="features.html" class="dropdown-item"><strong>99% Uptime</strong></a>
                           <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                         </div>
                         <div class="col-lg-3">
-                          <a href="features.htm" class="hidden-md-down">
+                          <a href="features.html" class="hidden-md-down">
                             <img src="assets/img/features/feature-4.png" alt="Feature 4" class="img-fluid" />
                           </a>
-                          <a href="features.htm" class="dropdown-item"><strong>Upgrade Assistance</strong></a>
+                          <a href="features.html" class="dropdown-item"><strong>Upgrade Assistance</strong></a>
                           <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                         </div>
                       </div>
@@ -429,37 +429,37 @@ if (!empty($form_values)) {
             <div class="nav-section-menu">
               <div class="nav nav-list">
                 <span class="nav-header">In This Section</span> 
-                <a href="about.htm" class="nav-link first">
+                <a href="about.html" class="nav-link first">
                   About Us 
                   <small>Basic Version</small>
                   <i class="fa fa-angle-right"></i>
                 </a>
-                <a href="about-extended.htm" class="nav-link">
+                <a href="about-extended.html" class="nav-link">
                   About Us 
                   <small>Extended Version</small>
                   <i class="fa fa-angle-right"></i>
                 </a>
-                <a href="about-me.htm" class="nav-link">
+                <a href="about-me.html" class="nav-link">
                   About Me 
                   <small>More About Me</small>
                   <i class="fa fa-angle-right"></i>
                 </a>
-                <a href="team.htm" class="nav-link">
+                <a href="team.html" class="nav-link">
                   The Team 
                   <small>Team List</small>
                   <i class="fa fa-angle-right"></i>
                 </a>
-                <a href="team-grid.htm" class="nav-link">
+                <a href="team-grid.html" class="nav-link">
                   The Team 
                   <small>Team Grid</small>
                   <i class="fa fa-angle-right"></i>
                 </a>
-                <a href="team-member.htm" class="nav-link">
+                <a href="team-member.html" class="nav-link">
                   Team Member 
                   <small>Individual Display</small>
                   <i class="fa fa-angle-right"></i>
                 </a>
-                <a href="contact.htm" class="nav-link">
+                <a href="contact.html" class="nav-link">
                   Contact Us
                   <small>How to get in touch</small>
                   <i class="fa fa-angle-right"></i>
@@ -624,7 +624,7 @@ if (!empty($form_values)) {
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
-              <form action="signup.htm">
+              <form action="signup.html">
                 <div class="form-group">
                   <h5>
                     Price Plan
@@ -671,7 +671,7 @@ if (!empty($form_values)) {
               </form>
             </div>
             <div class="modal-footer">
-              <small>Already signed up? <a href="login.htm">Login here</a>.</small>
+              <small>Already signed up? <a href="login.html">Login here</a>.</small>
             </div>
           </div>
           <!-- /.modal-content -->
@@ -691,7 +691,7 @@ if (!empty($form_values)) {
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
-              <form action="login.htm">
+              <form action="login.html">
                 <div class="form-group">
                   <label class="sr-only" for="login-email">Email</label>
                   <input type="email" id="login-email" class="form-control email" placeholder="Email">

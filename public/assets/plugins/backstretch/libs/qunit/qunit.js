@@ -577,7 +577,7 @@ extend(QUnit, {
 	// If jQuery is available, uses jQuery's html(), otherwise just innerHTML.
 	reset: function() {
 		if ( window.jQuery ) {
-			jQuery( "#qunit-fixture" ).html( config.fixture );
+			jQuery( "#qunit-fixture" ).htmll( config.fixture );
 		} else {
 			var main = id( 'qunit-fixture' );
 			if ( main ) {
@@ -1355,14 +1355,14 @@ QUnit.jsDump = (function() {
 			return type;
 		},
 		separator: function() {
-			return this.multiline ?	this.HTML ? '<br />' : '\n' : this.HTML ? '&nbsp;' : ' ';
+			return this.multiline ?	this.html ? '<br />' : '\n' : this.html ? '&nbsp;' : ' ';
 		},
 		indent: function( extra ) {// extra can be a number, shortcut for increasing-calling-decreasing
 			if ( !this.multiline ) {
 				return '';
 			}
 			var chr = this.indentChar;
-			if ( this.HTML ) {
+			if ( this.html ) {
 				chr = chr.replace(/\t/g,'   ').replace(/ /g,'&nbsp;');
 			}
 			return new Array( this._depth_ + (extra||0) ).join(chr);
@@ -1423,8 +1423,8 @@ QUnit.jsDump = (function() {
 				return join( '{', ret, '}' );
 			},
 			node: function( node ) {
-				var open = QUnit.jsDump.HTML ? '&lt;' : '<',
-					close = QUnit.jsDump.HTML ? '&gt;' : '>';
+				var open = QUnit.jsDump.html ? '&lt;' : '<',
+					close = QUnit.jsDump.html ? '&gt;' : '>';
 
 				var tag = node.nodeName.toLowerCase(),
 					ret = open + tag;

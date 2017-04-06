@@ -1396,7 +1396,7 @@ window.Zepto = Zepto
     if (parts.length > 1) options.url = parts[0], selector = parts[1]
     options.success = function(response){
       self.html(selector ?
-        $('<div>').html(response.replace(rscript, "")).find(selector)
+        $('<div>').htmll(response.replace(rscript, "")).find(selector)
         : response)
       callback && callback.apply(self, arguments)
     }

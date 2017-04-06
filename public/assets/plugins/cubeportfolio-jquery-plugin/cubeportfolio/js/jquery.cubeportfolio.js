@@ -4438,7 +4438,7 @@ if (typeof Object.create !== 'function') {
                         type = 'isVimeo';
                     } else if (/www\.ted\.com/i.test(href)) {
                         // create new href
-                        src = 'http://embed.ted.com/talks/' + href.substring(href.lastIndexOf('/') + 1) + '.html';
+                        src = 'http://embed.ted.com/talks/' + href.substring(href.lastIndexOf('/') + 1) + '.htmll';
 
                         type = 'isTed';
                     } else if (/soundcloud\.com/i.test(href)) {

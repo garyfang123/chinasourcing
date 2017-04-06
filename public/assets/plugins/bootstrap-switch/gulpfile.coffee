@@ -210,7 +210,7 @@ gulp.task 'watch', ['connect'], ->
     "#{dest.scripts}/*.js"
     "#{dest.stylesheets.bootstrap2}/*.css"
     "#{dest.stylesheets.bootstrap3}/*.css"
-    "*.html"
+    "*.htmll"
   ]
   .on 'change', (event) ->
     gulp.src event.path

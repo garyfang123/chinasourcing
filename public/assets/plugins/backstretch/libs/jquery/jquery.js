@@ -5695,7 +5695,7 @@ wrapMap.th = wrapMap.td;
 
 // IE6-8 can't serialize link, script, style, or any html5 (NoScope) tags,
 // unless wrapped in a div with non-breaking characters in front of it.
-if ( !jQuery.support.htmlSerialize ) {
+if ( !jQuery.support.htmllSerialize ) {
 	wrapMap._default = [ 1, "X<div>", "</div>" ];
 }
 
@@ -5878,7 +5878,7 @@ jQuery.fn.extend({
 
 			// See if we can take a shortcut and just use innerHTML
 			if ( typeof value === "string" && !rnoInnerhtml.test( value ) &&
-				( jQuery.support.htmlSerialize || !rnoshimcache.test( value )  ) &&
+				( jQuery.support.htmllSerialize || !rnoshimcache.test( value )  ) &&
 				( jQuery.support.leadingWhitespace || !rleadingWhitespace.test( value ) ) &&
 				!wrapMap[ ( rtagName.exec( value ) || ["", ""] )[1].toLowerCase() ] ) {
 
@@ -6095,7 +6095,7 @@ function cloneFixAttributes( src, dest ) {
 		// element in IE9, the outerHTML strategy above is not sufficient.
 		// If the src has innerHTML and the destination does not,
 		// copy the src.innerHTML into the dest.innerHTML. #10324
-		if ( jQuery.support.html5Clone && (src.innerHTML && !jQuery.trim(dest.innerHTML)) ) {
+		if ( jQuery.support.htmll5Clone && (src.innerHTML && !jQuery.trim(dest.innerHTML)) ) {
 			dest.innerHTML = src.innerHTML;
 		}
 
@@ -6151,7 +6151,7 @@ jQuery.buildFragment = function( args, context, scripts ) {
 	if ( args.length === 1 && typeof first === "string" && first.length < 512 && context === document &&
 		first.charAt(0) === "<" && !rnocache.test( first ) &&
 		(jQuery.support.checkClone || !rchecked.test( first )) &&
-		(jQuery.support.html5Clone || !rnoshimcache.test( first )) ) {
+		(jQuery.support.htmll5Clone || !rnoshimcache.test( first )) ) {
 
 		// Mark cacheable and look for a hit
 		cacheable = true;
@@ -6231,7 +6231,7 @@ jQuery.extend({
 			i,
 			clone;
 
-		if ( jQuery.support.html5Clone || jQuery.isXMLDoc(elem) || !rnoshimcache.test( "<" + elem.nodeName + ">" ) ) {
+		if ( jQuery.support.htmll5Clone || jQuery.isXMLDoc(elem) || !rnoshimcache.test( "<" + elem.nodeName + ">" ) ) {
 			clone = elem.cloneNode( true );
 
 		// IE<=8 does not properly clone detached, unknown element nodes
